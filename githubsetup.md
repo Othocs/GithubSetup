@@ -149,9 +149,9 @@ pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
 ### 2: Go to your github settings on the github website
-![[Pasted image 20250917135257.png]]
-![[Pasted image 20250917135442.png]]
-![[Pasted image 20250917135546.png]]
+![GitHub settings navigation](./Pasted%20image%2020250917135257.png)
+![SSH keys section](./Pasted%20image%2020250917135442.png)
+![Add new SSH key](./Pasted%20image%2020250917135546.png)
 
 Add the SSH Key and you should be good to go !
 
