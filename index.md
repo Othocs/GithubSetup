@@ -3,6 +3,14 @@ title: GitHub Setup Guide
 layout: default
 ---
 
+## Table of contents
+
+- [Check if you already have an SSH Key](#check-if-you-already-have-an-ssh-key-in-the-terminal)
+- [Generate an SSH Key](#1-generate-an-ssh-key-in-the-terminal)
+- [Add the SSH Key to the SSH-Agent](#2-adding-the-ssh-key-to-the-ssh-agent)
+- [Add the SSH key to GitHub](#final-step--adding-the-ssh-key-to-github)
+- [Test the SSH connection](#test-that-the-ssh-connection-works)
+
 
 Here is a simple guide to follow if you want to setup github for the first time on your MAC 
 
@@ -154,9 +162,9 @@ pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
 ### 2: Go to your github settings on the github website
-![GitHub settings navigation](./Pasted%20image%2020250917135257.png)
-![SSH keys section](./Pasted%20image%2020250917135442.png)
-![Add new SSH key](./Pasted%20image%2020250917135546.png)
+![GitHub settings navigation](./images/Pasted%20image%2020250917135257.png)
+![SSH keys section](./images/Pasted%20image%2020250917135442.png)
+![Add new SSH key](./images/Pasted%20image%2020250917135546.png)
 
 Add the SSH Key and you should be good to go !
 
